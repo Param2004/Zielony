@@ -6,7 +6,7 @@
     width: 800px;
     height: 80px;
     position: absolute;
-    top: 16px;
+    top: 15.8px;
     right: 0;
     z-index: -1;
 }
@@ -19,10 +19,9 @@
     height: 25px;
 }
 .phone{
-    margin: 0 5%;
     position: absolute;
     top: -8px;
-    right: 200px;
+    right: 250px;
 }
 .mail{
     position: absolute;
@@ -40,7 +39,6 @@
     border-radius: 10px;
 }
 .nav-item{
-    width: 30%;
     margin: 10px;
     background-color: rgb(20, 155, 20);
     border-radius: 10px;

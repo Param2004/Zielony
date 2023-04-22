@@ -1,12 +1,19 @@
+body{
+    width: 100%;
+}
+
+/* NAVBAR */
+
 .navbar{
     margin-top: 20px;
     padding: 0;
 }
 .nav-strip{
-    width: 800px;
-    height: 70px;
+    border-radius: 20px;
+    width: 80%;
+    height: 60px;
     position: absolute;
-    top: 11.5px;
+    top: 20px;
     right: 0;
     z-index: -1;
 }
@@ -17,27 +24,27 @@
 .contact{
     margin-top: 5px;
     margin-bottom: 0;
-    height: 35px;
+    height: 30px;
+    text-decoration: none;
+    color: #353535;
 }
 .contact-ico{
-    margin-right: 5px;
+    margin: 10px;
     height: 25px;
 }
 .phone{
-    height: 40px;
     position: absolute;
-    top: -8px;
-    right: 230px;
+    top: 0;
+    right: 280px;
 }
 .mail{
-    height: 40px;
     position: absolute;
-    top: -8px;
-    right: 0;
+    top: 0;
+    right: 2%;
 }
 .logo{
-    height: 60px;
-    width: 180px;
+    height: 70px;
+    width: 210px;
     background-color: white;
     border-radius: 10px;
 }
@@ -46,8 +53,8 @@
     border-radius: 10px;
 }
 .nav-item{
-    margin: 10px;
-    background-color: rgb(20, 155, 20);
+    margin: 5px 40px;
+    background-color: #00D43B;
     border-radius: 10px;
 }
 .nav-item:hover{
@@ -58,31 +65,121 @@
     background-color: rgb(255, 255, 255) !important;
 }
 .navbar-toggler:hover{
-    background-color: rgb(20, 155, 20) !important;
+    background-color: #00D43B !important;
 }
  .dropdown-menu{
-    margin-top: 0 !important;
     border: 0 !important;
-    background-color: rgb(20, 155, 20) !important;
+    background-color: #ffffff !important;
 } 
 .dropdown-item{
     text-align: center !important;
-    color: white !important;
-    background-color: rgb(20, 155, 20) !important;
+    color: #008827 !important;
+    background-color: #ffffff !important;
     border-radius: 10px !important;
 }
 .dropdown-item:hover{
-    color: rgb(20, 155, 20) !important;
-    background-color: rgb(255, 255, 255) !important;
+    color: #ffffff !important;
+    background-color: #00D43B !important;
     border-radius: 10px;
 }
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
 .nav-link{
     text-align: center;
+    font-weight: bold !important;
     border-radius: 10px;
     color:rgb(255, 255, 255) !important;
 }
 .nav-link:hover  {
-    color:rgb(44, 154, 4) !important;
-    background-color: rgb(255, 255, 255) !important;
-    border-radius: 10px;
+    text-shadow: 2px 3px 9px rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+/* HEADING */
+
+.headline{
+    display: inline-block;
+    position: relative;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    margin: 3%;
+}
+h1{
+    text-align: left;
+    font-size: xx-large !important;
+}
+
+/* PARAGRAPH */
+
+p{
+    margin-top: 10%;
+    font-size: 110%;
+    text-align: left;
+    color: #525252;
+}
+
+.quote{
+    margin-top: 10%;
+    font-size: 70%;
+    text-align: left;
+    color: #525252;
+}
+
+.by{
+    text-align: right;
+}
+
+/* BUTTON */
+
+.btn {
+    background: #1a8000;
+    background-image: -webkit-linear-gradient(top, #1a8000, #66b82b);
+    background-image: -moz-linear-gradient(top, #1a8000, #66b82b);
+    background-image: -ms-linear-gradient(top, #1a8000, #66b82b);
+    background-image: -o-linear-gradient(top, #1a8000, #66b82b);
+    background-image: linear-gradient(to bottom, #1a8000, #66b82b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff !important;
+    font-size: 30px;
+    margin: 5%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: #066c02 !important;
+    background: #b5b5b5;
+    background-image: -webkit-linear-gradient(top, #b5b5b5, #ffffff);
+    background-image: -moz-linear-gradient(top, #b5b5b5, #ffffff);
+    background-image: -ms-linear-gradient(top, #b5b5b5, #ffffff);
+    background-image: -o-linear-gradient(top, #b5b5b5, #ffffff);
+    background-image: linear-gradient(to bottom, #b5b5b5, #ffffff);
+    text-decoration: none;
+  }
+
+/* CAROUSEL */
+
+#carousel{
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    left: 0;
+    width: 50%;
+    height: 40%;
+}
+.d-block{
+    border-radius: 100px;
+    width: 600px;
+    height: 450px;
+    z-index: -1;
 }

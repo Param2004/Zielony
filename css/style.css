@@ -6,7 +6,7 @@
     width: 800px;
     height: 80px;
     position: absolute;
-    top: 15.8px;
+    top: 15.6px;
     right: 0;
     z-index: -1;
 }
@@ -16,12 +16,16 @@
 }
 .contact{
     margin: 5px;
+    width: 230px;
+}
+.contact-ico{
+    margin: 5px;
     height: 25px;
 }
 .phone{
     position: absolute;
     top: -8px;
-    right: 250px;
+    right: 200px;
 }
 .mail{
     position: absolute;

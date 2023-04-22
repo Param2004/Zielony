@@ -4,9 +4,9 @@
 }
 .nav-strip{
     width: 800px;
-    height: 80px;
+    height: 70px;
     position: absolute;
-    top: 15.6px;
+    top: 11.5px;
     right: 0;
     z-index: -1;
 }
@@ -15,26 +15,29 @@
     border-radius: 10px;
 }
 .contact{
-    margin: 5px;
-    width: 230px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    height: 35px;
 }
 .contact-ico{
-    margin: 5px;
+    margin-right: 5px;
     height: 25px;
 }
 .phone{
+    height: 40px;
     position: absolute;
     top: -8px;
-    right: 200px;
+    right: 230px;
 }
 .mail{
+    height: 40px;
     position: absolute;
     top: -8px;
     right: 0;
 }
 .logo{
-    height: 80px;
-    width: 240px;
+    height: 60px;
+    width: 180px;
     background-color: white;
     border-radius: 10px;
 }

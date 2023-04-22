@@ -1,11 +1,12 @@
 .navbar{
-    margin-top: 10px;
+    margin-top: 20px;
+    padding: 0;
 }
 .nav-strip{
     width: 800px;
-    height: 75px;
+    height: 80px;
     position: absolute;
-    top: 14px;
+    top: 16px;
     right: 0;
     z-index: -1;
 }
@@ -14,24 +15,23 @@
     border-radius: 10px;
 }
 .contact{
+    margin: 5px;
     height: 25px;
-    padding: 2px;
 }
 .phone{
-    width: 20%;
+    margin: 0 5%;
     position: absolute;
-    top: -6px;
-    right: 20%
+    top: -8px;
+    right: 200px;
 }
 .mail{
-    width: 20%;
     position: absolute;
-    top: -6px;
-    right: 2%;
+    top: -8px;
+    right: 0;
 }
 .logo{
-    height: 70px;
-    width: 200px;
+    height: 80px;
+    width: 240px;
     background-color: white;
     border-radius: 10px;
 }
@@ -40,7 +40,8 @@
     border-radius: 10px;
 }
 .nav-item{
-    margin: 10px 10px 5px;
+    width: 30%;
+    margin: 10px;
     background-color: rgb(20, 155, 20);
     border-radius: 10px;
 }
@@ -48,18 +49,19 @@
     border-radius: 10px;
 }
 .navbar-toggler{
-    background-color: rgb(157, 255, 165) !important;
-}
-.navbar-toggler:hover{
+    margin-right: 2%;
     background-color: rgb(255, 255, 255) !important;
 }
-.dropdown-menu{
-    background-color: green !important;
+.navbar-toggler:hover{
+    background-color: rgb(20, 155, 20) !important;
 }
+ .dropdown-menu{
+    margin-top: 0 !important;
+    border: 0 !important;
+    background-color: rgb(20, 155, 20) !important;
+} 
 .dropdown-item{
-    
-    width: 50% !important;
-    margin: 10px;
+    text-align: center !important;
     color: white !important;
     background-color: rgb(20, 155, 20) !important;
     border-radius: 10px !important;
@@ -70,7 +72,6 @@
     border-radius: 10px;
 }
 .nav-link{
-    margin: 5px ;
     text-align: center;
     border-radius: 10px;
     color:rgb(255, 255, 255) !important;

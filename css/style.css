@@ -1,0 +1,82 @@
+.navbar{
+    margin-top: 10px;
+}
+.nav-strip{
+    width: 800px;
+    height: 75px;
+    position: absolute;
+    top: 14px;
+    right: 0;
+    z-index: -1;
+}
+.navbar-nav{
+    margin-left: auto;
+    border-radius: 10px;
+}
+.contact{
+    height: 25px;
+    padding: 2px;
+}
+.phone{
+    width: 20%;
+    position: absolute;
+    top: -6px;
+    right: 20%
+}
+.mail{
+    width: 20%;
+    position: absolute;
+    top: -6px;
+    right: 2%;
+}
+.logo{
+    height: 70px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+.logo:hover{
+    background-color: rgb(236, 255, 235);
+    border-radius: 10px;
+}
+.nav-item{
+    margin: 10px 10px 5px;
+    background-color: rgb(20, 155, 20);
+    border-radius: 10px;
+}
+.nav-item:hover{
+    border-radius: 10px;
+}
+.navbar-toggler{
+    background-color: rgb(157, 255, 165) !important;
+}
+.navbar-toggler:hover{
+    background-color: rgb(255, 255, 255) !important;
+}
+.dropdown-menu{
+    background-color: green !important;
+}
+.dropdown-item{
+    
+    width: 50% !important;
+    margin: 10px;
+    color: white !important;
+    background-color: rgb(20, 155, 20) !important;
+    border-radius: 10px !important;
+}
+.dropdown-item:hover{
+    color: rgb(20, 155, 20) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+}
+.nav-link{
+    margin: 5px ;
+    text-align: center;
+    border-radius: 10px;
+    color:rgb(255, 255, 255) !important;
+}
+.nav-link:hover  {
+    color:rgb(44, 154, 4) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+}

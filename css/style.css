@@ -25,8 +25,9 @@ body{
     margin-top: 5px;
     margin-bottom: 0;
     height: 30px;
+    font-size: small;
     text-decoration: none;
-    color: #353535;
+    color: #1aae3a;
 }
 .contact-ico{
     margin: 10px;
@@ -35,7 +36,7 @@ body{
 .phone{
     position: absolute;
     top: 0;
-    right: 280px;
+    right: 270px;
 }
 .mail{
     position: absolute;
@@ -68,7 +69,7 @@ body{
     background-color: #00D43B !important;
 }
  .dropdown-menu{
-    border: 0 !important;
+    border: 9 !important;
     background-color: #ffffff !important;
 } 
 .dropdown-item{
@@ -104,12 +105,11 @@ body{
 /* HEADING */
 
 .headline{
-    display: inline-block;
-    position: relative;
-    top: 0;
+    margin-top: 50px !important;
+    padding: 50px !important;
     font-family: 'Montserrat', sans-serif;
-    width: 40%;
-    margin: 3%;
+
+    
 }
 h1{
     text-align: left;
@@ -138,48 +138,39 @@ p{
 
 /* BUTTON */
 
-.btn {
-    background: #1a8000;
-    background-image: -webkit-linear-gradient(top, #1a8000, #66b82b);
-    background-image: -moz-linear-gradient(top, #1a8000, #66b82b);
-    background-image: -ms-linear-gradient(top, #1a8000, #66b82b);
-    background-image: -o-linear-gradient(top, #1a8000, #66b82b);
-    background-image: linear-gradient(to bottom, #1a8000, #66b82b);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Georgia;
-    color: #ffffff !important;
-    font-size: 30px;
-    margin: 5%;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    color: #066c02 !important;
-    background: #b5b5b5;
-    background-image: -webkit-linear-gradient(top, #b5b5b5, #ffffff);
-    background-image: -moz-linear-gradient(top, #b5b5b5, #ffffff);
-    background-image: -ms-linear-gradient(top, #b5b5b5, #ffffff);
-    background-image: -o-linear-gradient(top, #b5b5b5, #ffffff);
-    background-image: linear-gradient(to bottom, #b5b5b5, #ffffff);
-    text-decoration: none;
-  }
 
+ 
 /* CAROUSEL */
 
 #carousel{
-    display: inline-block;
-    position: relative;
-    top: 20%;
-    left: 0;
-    width: 50%;
-    height: 40%;
-}
+    
+
+    
+    top: 50px;
+    
+
+    border:5px;}
 .d-block{
-    border-radius: 100px;
-    width: 600px;
-    height: 450px;
+    border-radius: 50px;
+    width: 100%;
+    height: 600px;
     z-index: -1;
+
+}
+.headline-quote{
+    color: #00D43B !important;
+    font-weight: 900;
+}
+.intro{
+    font-weight: 700 !important;
+    color:#525252
+}
+@media (max-width) {
+    .headline{
+        text-align: center;
+    }
+    #carousel{
+        background-color: #00D43B;
+    }
+    
 }

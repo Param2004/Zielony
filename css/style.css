@@ -3,7 +3,7 @@
 /* NAVBAR */
 
 .navbar{
-    padding-top: 35px !important;
+    padding: 0 !important;
 }
 /* .nav-strip{
  border-radius: 10px; 
@@ -18,13 +18,16 @@
     margin-left: auto;
     border-radius: 10px;
 }
+.collapse{
+    margin-top: 30px !important;
+}
 .contact{
     margin-top: 5px;
     margin-bottom: 0;
     height: 30px;
     font-size: small;
     text-decoration: none;
-    color: #35AF58;
+    color: #000000;
 }
 .contact-ico{
     margin: 10px;
@@ -51,11 +54,9 @@
     border-radius: 10px;
 }
 .nav-item{
-    margin: 5px 40px;
-   
-    background-color: #ffffff;
     border-radius: 10px;
     letter-spacing: 0.5px;
+    margin-right: 50px;
 }
 .nav-item:hover{
     border-radius: 10px;
@@ -115,12 +116,10 @@
     text-align: center;
     font-weight: 500 !important;
     border-radius: 10px;
-    color: black !important;
+    color: rgb(45, 45, 45) !important;
 }
 .nav-link:hover  {
     color: #35AF58 !important;
-    text-shadow: 2px 3px 9px rgb(103, 103, 103);
-    text-decoration: underline;
 }
 
 /* HEADING */
@@ -164,30 +163,25 @@
 /* CAROUSEL */
 
 #carousel{
-
     background-color: aliceblue;
-    height: 580px !important;
 }
 .fslide{
-    border-radius: 10%;
-    border: 50px !important;
-    border-color: rgba(2, 22, 39, 0.768);
     width: 100%;
-    height: 95%;
-    margin-top: 60px !important;
+    height: 70%;
+    margin-top: 100px !important;
 }
 .btn{
-    margin-left: 5em;
+    margin: 1.5em 0 2em 5em;
     font-weight: 550 !important;
 }
 .btn:hover{
     background-color: #008626 !important;
 }
 .sl{
+ 
     width: 100%;
-    height: 600px;
+    height: 100%;
 }
 .slide-btn{
 width: 100px !important;
-height: ;
 }

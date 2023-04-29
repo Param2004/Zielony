@@ -1,19 +1,13 @@
 
 
 /* NAVBAR */
-
+.navbar-brand{
+    margin-right: auto !important;
+}
 .navbar{
     padding: 0 !important;
+    background-color: #ffffff;
 }
-/* .nav-strip{
- border-radius: 10px; 
-    width: 80%;
-    height: 60px;
-    position: absolute;
-    top: 20px;
-    right: 0;
-    z-index: -1;
-} */
 .navbar-nav{
     margin-left: auto;
     border-radius: 10px;
@@ -22,12 +16,13 @@
     margin-top: 30px !important;
 }
 .contact{
+    border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 0;
     height: 30px;
     font-size: small;
-    text-decoration: none;
     color: #000000;
+    text-decoration: none;
 }
 .contact-ico{
     margin: 10px;
@@ -36,12 +31,12 @@
 .phone{
     position: absolute;
     top: 0;
-    right: 270px;
+    right: 250px;
 }
 .mail{
     position: absolute;
     top: 0;
-    right: 2%;
+    right: 10px;
 }
 .logo{
     height: 70px;
@@ -133,14 +128,12 @@
 }
 .headline-quote{
     text-align: left;
-    /* font-size: xx-large !important; */
-    color: #1d9941!important;
+    color: #35AF58!important;
     font-weight: 1000;
 }
 
 .intro{
-    margin-top: 4%;
-    
+    margin-top: 5%;
     text-align: left;
     color: #232323;
 }
@@ -166,16 +159,16 @@
     background-color: aliceblue;
 }
 .fslide{
-    width: 100%;
-    height: 70%;
+    height: 100%;
+    
     margin-top: 100px !important;
 }
 .btn{
-    margin: 1.5em 0 2em 5em;
+    margin: 5%;
     font-weight: 550 !important;
 }
 .btn:hover{
-    background-color: #008626 !important;
+    background-color: #35AF58 !important;
 }
 .sl{
  
@@ -184,4 +177,13 @@
 }
 .slide-btn{
 width: 100px !important;
+}
+@media (max-width:998px) {
+    .headline{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+    .quote,.intro{
+        text-align: justify !important;
+    }
 }

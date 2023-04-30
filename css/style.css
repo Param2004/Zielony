@@ -51,7 +51,7 @@
 .nav-item{
     border-radius: 10px;
     letter-spacing: 0.5px;
-    margin-right: 100px;
+    margin: 0 50px 0 50px;
 }
 .nav-item:hover{
     border-radius: 10px;
@@ -124,7 +124,7 @@
     color: rgb(45, 45, 45) !important;
 }
 .nav-link:hover  {
-    color: #888888 !important;
+    color: #35AF58 !important;
 }
 
 /* HEADING */
@@ -190,7 +190,11 @@ width: 100px !important;
 }
 
 /* PRODUCT RANGE */
+#movingcard{
+    padding-left: 30px;
+    padding-right: 30px;
 
+}
 .cards {
     width: 100%;
     display:flex;
@@ -353,7 +357,7 @@ border-bottom-right-radius: 12px;
 
 /* RESPONSIVE */
 
-@media (min-width:998px) {
+@media (min-width:1000px) {
     .dropdown:hover>.dropdown-menu {
         display: block;
       }
@@ -363,7 +367,7 @@ border-bottom-right-radius: 12px;
           pointer-events:none;
       }
 }
-@media (max-width:700px) {
+@media (max-width:1000px) {
     .headline{
         padding-left: 40px !important;
         padding-right: 40px !important;
@@ -372,21 +376,34 @@ border-bottom-right-radius: 12px;
         text-align: justify !important;
     }
     .navbar-collapse{
-        margin-left: 0 !important;
+        border-radius: 10px;
+        margin: 10px 50px 20px !important;
         background-color:  #35AF58 !important;
     }
     .dropdown{
     margin: 0px !important;
     }
+    .nav-item{
+        margin: 0;
+    }
     .nav-link{
-    color:#ffffff !important;
+        padding: 10px !important;
+        color:#ffffff !important;
+        text-align: center !important;
+    }
+    .nav-link:hover{
+        color: #005e11 !important;
     }
     .navbar-brand,.navbar-toggler{
-        margin-top: 5%;
+        margin-top: 7%;
+    }
+    .sl{
+        width: 100%;
+        height: 250px;
     }
     .card{
-        width: 350px;
-        height: 418px;
+        width: 320px;
+        height: 400px;
     }
 
 }

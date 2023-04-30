@@ -363,9 +363,31 @@ width: 100px !important;
     position: relative;
     bottom: 12rem;
 }
+/* WHCHOOSE US*/
+.choose-quote{
+    font-family:'Montserrat', sans-serif ;
+    text-align: center;
+    margin-bottom: 4%;
+    color: #169825;
+    font-weight: 700;
+}
+#Choose{
+    margin-top:5%;
 
-
-
+    border-radius: 5%;
+}
+.choose-box{
+    text-align: center;
+    margin: 0% !important;
+    color: #564f4f;
+    border-radius: 5%;
+    margin-bottom: 7% !important;
+}
+.fav{
+    padding-top: 9%;
+    padding-bottom: 7%;
+    
+}
 
 
 

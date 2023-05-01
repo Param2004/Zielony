@@ -196,11 +196,12 @@ width: 100px !important;
 }
 
 .pheading{
+    font-family:'Montserrat', sans-serif ;
     color: #35AF58;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     position: relative;
-    top:4rem;
+    top:3rem;
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
@@ -371,7 +372,7 @@ width: 100px !important;
     text-align: center;
     margin: 8% 0 2% 0;
     color: #35AF58;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 #Choose{
     margin-top:4%;

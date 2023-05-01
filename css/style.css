@@ -89,9 +89,9 @@
     color: rgba(51, 49, 49, 0.853)!important;
     background-color: #ffffff !important;
     border-radius: 10px !important;
-    letter-spacing: 0.5px;
-    font-weight: bolder !important;
-    line-height: 50px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 40px;
 }
 .dropdown-item:hover{
     color: #35AF58 !important;
@@ -190,15 +190,15 @@ width: 100px !important;
     -webkit-justify-content: center;
     max-width:200rem;
     max-height:200rem;
-    margin-top:10rem;
+    margin-top:6rem;
     gap:6rem;
 
 }
 
 .pheading{
-    color: #3d3d3d;
+    color: #35AF58;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     position: relative;
     top:4rem;
 }
@@ -323,7 +323,7 @@ width: 100px !important;
     letter-spacing: 1px;
     line-height: 30px;
     font-weight: 500;
-    color: #5f5f5f;
+    color: #2a2a2a;
 }
 
 .card__title {
@@ -363,17 +363,18 @@ width: 100px !important;
     position: relative;
     bottom: 12rem;
 }
+
 /* WHCHOOSE US*/
+
 .choose-quote{
     font-family:'Montserrat', sans-serif ;
     text-align: center;
-    margin-bottom: 4%;
-    color: #169825;
-    font-weight: 700;
+    margin: 8% 0 2% 0;
+    color: #35AF58;
+    font-size: 2.5rem;
 }
 #Choose{
-    margin-top:5%;
-
+    margin-top:4%;
     border-radius: 5%;
 }
 .choose-box{
@@ -389,7 +390,9 @@ width: 100px !important;
     
 }
 
-
+.fav:hover{
+   color:#ffffff;
+}
 
 
 

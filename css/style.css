@@ -228,7 +228,7 @@ width: 100px !important;
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url("/res/industry.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2023/03/29/17/50/beach-7886067_960_720.jpg");
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {

@@ -228,35 +228,34 @@ width: 100px !important;
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url("https://cdn.pixabay.com/photo/2023/03/29/17/50/beach-7886067_960_720.jpg");
+    background-image: url("https://www.eesc.europa.eu/sites/default/files/images/industry.jpg")
 }
-
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url("/res/smartcity.jpg") ;
+    background-image: url("https://www.leparisien.fr/resizer/F_37hWNdd3buEsqMQhIHsvObKqc=/1200x675/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/V4MLLWXSZZOV6MWL5S3AIBPIHU.jpg") ;
 }
 
 .card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url("/res/household.png") ;
+    background-image: url("https://www.mydomaine.com/thmb/3b9tEyy9erQDDxRN6bQEpYbyTLM=/2400x0/filters:no_upscale():strip_icc()/helfordln-1-7556f8609cb94144b0fca16114979ecb.jpg") ;
 }
 
 .card--4 .card__img, .card--4 .card__img--hover {
-    background-image: url("/res/smog.jpeg") ;
+    background-image: url("https://tennews.in/wp-content/uploads/2019/11/3-1.jpeg") ;
 }
 
 .card--5 .card__img, .card--5 .card__img--hover {
-    background-image: url("/res/hospital.png") ;
+    background-image: url("https://img3.exportersindia.com/product_images/bc-full/2021/5/8742117/hospital-interior-designing-services-1620112418-5810071.jpeg") ;
 }
 
 .card--6 .card__img, .card--6 .card__img--hover {
-    background-image: url("/res/metro.png") ;
+    background-image: url("https://images.pexels.com/photos/302428/pexels-photo-302428.jpeg") ;
 }
 
 .card--7 .card__img, .card--7 .card__img--hover {
-    background-image: url("/res/commercial.png") ;
+    background-image: url("https://zionarch.com/wp-content/uploads/2021/08/feature-image-4.jpg") ;
 }
 
 .card--8 .card__img, .card--8 .card__img--hover {
-    background-image: url("/res/mall.jpg") ;
+    background-image: url("https://images.unsplash.com/photo-1580793241553-e9f1cce181af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvcHBpbmclMjBtYWxsfGVufDB8fDB8fA%3D%3D&w=1000&q=80") ;
 }
 
 .card__like {

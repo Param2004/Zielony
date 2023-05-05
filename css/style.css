@@ -236,7 +236,7 @@ width: 100px !important;
 }
 
 .card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url("/res/household.jpg") ;
+    background-image: url("/res/household.png") ;
 }
 
 .card--4 .card__img, .card--4 .card__img--hover {
@@ -244,7 +244,7 @@ width: 100px !important;
 }
 
 .card--5 .card__img, .card--5 .card__img--hover {
-    background-image: url("/res/hospital.jpg") ;
+    background-image: url("/res/hospital.png") ;
 }
 
 .card--6 .card__img, .card--6 .card__img--hover {
@@ -252,7 +252,7 @@ width: 100px !important;
 }
 
 .card--7 .card__img, .card--7 .card__img--hover {
-    background-image: url("/res/commercial.jpg") ;
+    background-image: url("/res/commercial.png") ;
 }
 
 .card--8 .card__img, .card--8 .card__img--hover {

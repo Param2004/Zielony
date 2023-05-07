@@ -527,7 +527,7 @@ top:-1.1rem;
 .newshead{
     display: flex;
     justify-content: center;
-    margin-top:2rem;
+    margin-top:4rem;
     color:#4b4c4b;
     font-size:4em;
  }
@@ -571,6 +571,9 @@ hr{
 
 /* OUR MISSION */
 
+#ourmission{
+    margin-top: 4rem;
+}
 .mission-on
 {
     display: flex;
@@ -580,7 +583,7 @@ hr{
 {
 
     display: flex;
-    margin: 10vh auto;
+    margin: auto;
     width:50rem;
     height:47rem;
     border-radius: 4px;
@@ -589,7 +592,7 @@ hr{
     background: #35AF58 ;
     text-align: center;
     margin-left: 4rem;
-    margin-top: 8rem;
+    margin-top: 2rem;
 }
 .mission_info h1{
     color: #fff;
@@ -620,13 +623,20 @@ hr{
    
     position: relative;
     right:4rem;
-    top:20rem;
+    top:14rem;
     
 
   }
 
   /* CONTACT */
 
+.cnt-hl{
+    display: flex;
+    justify-content: center;
+    margin:4rem 0 2rem;
+    color:#4b4c4b;
+    font-size:4em;
+}
 .sec{
     position: relative;
     justify-content: center;
@@ -805,10 +815,10 @@ textarea{
     background: #0d9480;
 }
 
-/* media queries */
+/* media queries for contact us*/
 @media (max-width:1200px)
 {
-    .container{
+    .cont{
         width: 90%;
         min-width: auto;
         margin: 20px;
@@ -838,7 +848,7 @@ textarea{
     .sec::before{
         display: none;
     }
-    .container{
+    .cont{
         display: flex;
         flex-direction: column-reverse;
     }
@@ -886,6 +896,10 @@ textarea{
     margin: 1em;
     text-decoration: none;
     color: #ffffff;
+}
+.fot-link{
+    padding-left: 2em;
+    border-left: 2px solid white;
 }
 .fot-link:hover{
     text-decoration: underline;

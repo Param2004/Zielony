@@ -449,9 +449,9 @@ width: 100px !important;
 
 .uniquecards
 {
-    margin: 10vh auto;
-    width: 24em;
-    height: 42em;
+    margin: 5vh auto;
+    width: 20em;
+    height: 24em;
     border-radius: 4px;
     box-shadow: 0 15px 35px rgba(50, 50, 90, .1), 0 5px 15px rgba(0, 0, 0, .07);
     transition: .6s ease;
@@ -468,6 +468,9 @@ width: 100px !important;
 img {
     max-width: 100%;
     max-height: 100%;
+  }
+  .uniquecards__img{
+    height: 200px;
   }
   .uniquecards h1{
     font-size: 1.5rem;
@@ -548,6 +551,9 @@ top:-1.1rem;
     height: 800px;
     margin-left: 120px;
 }
+.two{
+    margin-top: 1em !important;
+}
 .news{
     text-align: left;
     padding: 10px 0;
@@ -566,7 +572,7 @@ top:-1.1rem;
     width: 500px;
 }
 hr{
-    margin: 18px !important;
+    margin: 5px !important;
 }
 
 /* OUR MISSION */
@@ -584,14 +590,14 @@ hr{
 
     display: flex;
     margin: auto;
-    width:50rem;
-    height:47rem;
+    width:40rem;
+    height:28rem;
     border-radius: 4px;
     box-shadow: 0 15px 35px rgba(50, 50, 90, .1), 0 5px 15px rgba(0, 0, 0, .07);
     transition: .6s ease;
     background: #35AF58 ;
     text-align: center;
-    margin-left: 4rem;
+    margin-left: 6rem;
     margin-top: 2rem;
 }
 .mission_info h1{
@@ -602,41 +608,41 @@ hr{
 
 }
 .line
-{
+{  margin-top: 0 !important;
    margin-left: 3rem;
 }
 .mission_info p{
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1em;
     text-align: start;
     line-height:2rem;
-   padding: 5rem;
-   margin-left:-2rem ;
-   margin-top: -3rem;
+    padding: 5rem 10rem 5rem 5rem;
+    margin-left:-2rem ;
+    margin-top: -3rem;
 
 }
 
 .fire{
 
-    height: 35rem;
+    height: 28rem;
     width: 40rem;
    
     position: relative;
-    right:4rem;
-    top:14rem;
+    right:6rem;
+    top:12rem;
     
 
   }
 
   /* CONTACT */
 
-.cnt-hl{
+/* .cnt-hl{
     display: flex;
     justify-content: center;
     margin:4rem 0 2rem;
     color:#4b4c4b;
     font-size:4em;
-}
+} */
 .sec{
     position: relative;
     justify-content: center;
@@ -644,6 +650,7 @@ hr{
     align-items: center;
     min-height: 100vh;
     background:  #35AF58;
+    margin-top: 16rem;
 }
 .sec::before{
     content: '';
@@ -706,7 +713,7 @@ span:nth-child(2){
 .cnt-img{
     max-width: 100%;
     filter: invert(1);
-    opacity: 0.5;
+    opacity: 0.7;
 
 } 
 .icons{
@@ -812,7 +819,7 @@ textarea{
     padding: 12px;
 }
 .inputbox input[type="submit"]:hover{
-    background: #0d9480;
+    background: #00750e;
 }
 
 /* media queries for contact us*/
@@ -888,7 +895,7 @@ textarea{
 /* FOOTER */
 
 .footer{
-    background-color: #005728;
+    background-color: #18622d;
     padding: 1em;
     text-align: center;
 }

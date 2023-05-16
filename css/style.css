@@ -220,7 +220,7 @@ width: 100px !important;
     font-family:'Montserrat', sans-serif ;
     color: #4b4c4b;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     position: relative;
     top:3rem;
     font-weight: 600;
@@ -250,7 +250,7 @@ width: 100px !important;
 }
 
 .card--7 .card__img, .card--7 .card__img--hover {
-    background-image: url("https://zionarch.com/wp-content/uploads/2021/08/feature-image-4.jpg") ;
+    background-image: url("https://ventsmagazine.com/wp-content/uploads/2019/12/Propane-Homepage-Other-Uses-Commercial-Buildings-Marquee-1800x1200-Modern-Commercial-Building.jpg") ;
 }
 
 .card--8 .card__img, .card--8 .card__img--hover {
@@ -390,7 +390,7 @@ width: 100px !important;
     text-align: center;
     margin: 8% 0 5% 0;
     color: #4b4C4C;
-    font-size: 3rem;
+    font-size: 2.5em;
     font-weight: 600;
 }
 #Choose{
@@ -438,7 +438,7 @@ width: 100px !important;
    justify-content: center;
    margin-top:2rem;
    color:#4b4c4b;
-   font-size:3rem;
+   font-size:2.5rem;
 }
 
 .unique{
@@ -532,7 +532,7 @@ top:-1.1rem;
     justify-content: center;
     margin-top:4rem;
     color:#4b4c4b;
-    font-size:4em;
+    font-size:2.5em;
  }
 .newsbox{
     padding-top: 40px;
@@ -633,6 +633,10 @@ hr{
     
 
   }
+.seperator{
+    margin-top: 12rem !important;
+    border-top: 1px solid green;
+}
 
   /* CONTACT */
 
@@ -650,7 +654,7 @@ hr{
     align-items: center;
     min-height: 100vh;
     background:  #35AF58;
-    margin-top: 16rem;
+    margin-top: 2rem;
 }
 .sec::before{
     content: '';
@@ -822,6 +826,105 @@ textarea{
     background: #00750e;
 }
 
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #18622d;
+    padding: 1em;
+    text-align: center;
+}
+.fot-link, .fot-elem{
+    margin: 1em;
+    text-decoration: none;
+    color: #ffffff;
+}
+.fot-link{
+    padding-left: 2em;
+    border-left: 2px solid white;
+}
+.fot-link:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media (min-width:800px) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+      }
+      
+      .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+          pointer-events:none;
+      }
+}
+@media (max-width:1000px) {
+    .headline{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+    .quote,.intro{
+        text-align: justify !important;
+    }
+    .navbar-collapse{
+        border-radius: 10px;
+        margin: 10px 50px 20px !important;
+        background-color:  #35AF58 !important;
+    }
+    .dropdown{
+    margin: 0px !important;
+    }
+    .nav-item{
+        margin: 0;
+    }
+    .nav-link{
+        padding: 10px !important;
+        color:#ffffff !important;
+        text-align: center !important;
+    }
+    .nav-link:hover{
+        color: #005e11 !important;
+    }
+    .navbar-brand,.navbar-toggler{
+        margin-top: 7%;
+    }
+    .d-block{
+        position: absolute;
+        visibility:hidden;
+    }
+    .sl{
+        width: 100%;
+        height: 250px;
+    }
+    #Choose{
+        margin-top: 135rem !important;
+    }
+
+    /* news */
+    .one{
+        margin: 0;
+        padding: 0;
+    }
+
+    .mission{
+        margin: 200px;
+    }
+    
+
+}
+
+
 /* media queries for contact us*/
 @media (max-width:1200px)
 {
@@ -890,24 +993,4 @@ textarea{
     .wmax{
         width: 100%;
     }
-}
-
-/* FOOTER */
-
-.footer{
-    background-color: #18622d;
-    padding: 1em;
-    text-align: center;
-}
-.fot-link, .fot-elem{
-    margin: 1em;
-    text-decoration: none;
-    color: #ffffff;
-}
-.fot-link{
-    padding-left: 2em;
-    border-left: 2px solid white;
-}
-.fot-link:hover{
-    text-decoration: underline;
 }

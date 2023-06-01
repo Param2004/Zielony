@@ -253,7 +253,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #4b4c4b;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     position: relative;
     top: 3rem;
     font-weight: 600;
@@ -263,6 +263,7 @@ body {
 .card--1 .card__img--hover {
     background-image: url("https://www.theclimategroup.org/sites/default/files/styles/image_with_text_desktop/public/2020-10/shutterstock_446584552.jpg?h=3e43625b&itok=LDrQqP98")
 }
+<<<<<<< HEAD
 
 .card--2 .card__img,
 .card--2 .card__img--hover {
@@ -293,6 +294,30 @@ body {
 
 .card--7 .card__img--hover {
     background-image: url("../res/commercial.jpg");
+=======
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url("../images/V4MLLWXSZZOV6MWL5S3AIBPIHU.jpg") ;
+}
+
+.card--3 .card__img, .card--3 .card__img--hover {
+    background-image: url("../images/helfordln-1-7556f8609cb94144b0fca16114979ecb.jpg") ;
+}
+
+.card--4 .card__img, .card--4 .card__img--hover {
+    background-image: url("../images/3-1.jpeg") ;
+}
+
+.card--5 .card__img, .card--5 .card__img--hover {
+    background-image: url("../images/hospital-interior-designing-services-1620112418-5810071.jpeg") ;
+}
+
+.card--6 .card__img, .card--6 .card__img--hover {
+    background-image: url("../images/pexels-photo-302428.jpeg") ;
+}
+
+.card--7 .card__img, .card--7 .card__img--hover {
+    background-image: url("../images/Propane-Homepage-Other-Uses-Commercial-Buildings-Marquee-1800x1200-Modern-Commercial-Building.jpg") ;
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
 }
 
 .card--8 .card__img,
@@ -434,7 +459,7 @@ body {
     text-align: center;
     margin: 8% 0 5% 0;
     color: #4b4C4C;
-    font-size: 3rem;
+    font-size: 2.5em;
     font-weight: 600;
 }
 
@@ -482,12 +507,21 @@ body {
 
 /* What makes us unique ? */
 
+<<<<<<< HEAD
 .whatmakeunique {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
     color: #4b4c4b;
     font-size: 3rem;
+=======
+.whatmakeunique{
+   display: flex;
+   justify-content: center;
+   margin-top:2rem;
+   color:#4b4c4b;
+   font-size:2.5rem;
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
 }
 
 .unique {
@@ -498,15 +532,26 @@ body {
 
 .uniquecards {
     margin: 5vh auto;
+<<<<<<< HEAD
     width: 24em;
     height: 27em;
+=======
+    width: 20rem;
+    height: 28rem;
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
     border-radius: 4px;
     box-shadow: 0 15px 35px rgba(50, 50, 90, .1), 0 5px 15px rgba(0, 0, 0, .07);
     transition: .6s ease;
     background: white;
     text-align: center;
+<<<<<<< HEAD
 
 
+=======
+    margin: 1.5rem;
+ 
+ 
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
 }
 
 .uniquecards:hover {
@@ -576,12 +621,20 @@ p {
 .newshead {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     margin-top: 4rem;
     color: #4b4c4b;
     font-size: 4em;
 }
 
 .newsbox {
+=======
+    margin-top:4rem;
+    color:#4b4c4b;
+    font-size:2.5em;
+ }
+.newsbox{
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
     padding-top: 40px;
     background-color: #fafafa;
 }
@@ -596,6 +649,7 @@ p {
     text-decoration: none;
     color: #000000;
 }
+<<<<<<< HEAD
 
 .top {
     font-size: 1.5rem;
@@ -604,16 +658,28 @@ p {
 .one {
     height: 800px;
     margin-left: 120px;
+=======
+.one{
+    margin-left: 70px;
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
 }
 
 .two {
     margin-top: 1em !important;
 }
+<<<<<<< HEAD
 
 .news {
     text-align: justify;
     padding: 10px;
     font-weight: 700;
+=======
+.news{
+    text-align: left;
+    text-align: justify;
+    padding: 10px;
+    font-weight: 600;
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
     color: #2a2a2a;
 }
 
@@ -628,9 +694,13 @@ p {
     padding-left: 10px;
     margin-right: 30px !important;
 }
+<<<<<<< HEAD
 
 .img2,
 .img3 {
+=======
+.img2,.img3{
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
     width: 100%;
 }
 
@@ -695,6 +765,14 @@ hr {
     right: 12rem;
     top: 12rem;
 
+<<<<<<< HEAD
+=======
+  }
+.seperator{
+    margin-top: 12rem !important;
+    border-top: 1px solid green;
+}
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
 
 }
 
@@ -707,6 +785,24 @@ hr {
     line-height: 30px;
     margin-top: 235px;
 
+<<<<<<< HEAD
+=======
+/* .cnt-hl{
+    display: flex;
+    justify-content: center;
+    margin:4rem 0 2rem;
+    color:#4b4c4b;
+    font-size:4em;
+} */
+.sec{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:  #35AF58;
+    margin-top: 2rem;
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a
 }
 
 .site-footer h6 {
@@ -1230,6 +1326,141 @@ input {
 
 }
 
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #18622d;
+    text-align: center;
+}
+.fot-link, .fot-elem{
+    font-size: 70%;
+    margin: 1em;
+    text-decoration: none;
+    color: #ffffff;
+}
+.fot-link{
+    padding-left: 2em;
+    border-left: 2px solid white;
+}
+.fot-link:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media (min-width:1000px) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+      }
+      
+      .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+          pointer-events:none;
+      }
+}
+@media (max-width:970px) {
+    .headline{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+    .quote,.intro{
+        text-align: justify !important;
+    }
+    .navbar-collapse{
+        border-radius: 10px;
+        margin: 10px 50px 20px !important;
+        background-color:  #35AF58 !important;
+    }
+    .dropdown{
+    margin: 0px !important;
+    }
+    .nav-item{
+        margin: 0;
+    }
+    .nav-link{
+        padding: 10px !important;
+        color:#ffffff !important;
+        text-align: center !important;
+    }
+    .nav-link:hover{
+        color: #005e11 !important;
+    }
+    .navbar-brand,.navbar-toggler{
+        margin-top: 20px;
+    }
+    .contact{
+        font-size: 15px;
+    }
+    .phone{
+        right: 180px;
+        left: 20px;
+    }
+    .mail{
+        right: 20px;
+    }
+    .d-block{
+        position: absolute;
+        visibility:hidden;
+    }
+    .sl{
+        width: 100%;
+        height: 250px;
+    }
+    .pheading, .choose-quote, .whatmakeunique{
+        font-size: xx-large;
+    }
+
+    /* choose */
+
+    #Choose{
+        margin-top: 135rem;
+    }
+
+    /* news */
+    .one, .two{
+        margin: 0 !important;
+    }
+    .img1, .img2, .img3{
+        border: none;
+        border-radius: 10px;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .top{
+        text-decoration: underline;
+    }
+    .news{
+        margin: 10px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    hr{
+        visibility: hidden;
+    }
+    
+/* footer */
+
+.fot-link, .fot-elem{
+    font-size: 60%;
+}
+
+/* .cnt-hl{ 
+    display: flex;
+ } */
+}
+
+
 /* media queries for contact us*/
 @media (max-width:1200px) {
     .cont {
@@ -1308,4 +1539,289 @@ input {
     .wmax {
         width: 100%;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+/*media quert for phones product range */
+
+
+@media screen and (max-width:600px)
+{
+
+    
+    html,body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+       
+    }
+    
+
+    .card {
+       
+        width:100%;
+       
+        
+       
+    }
+    .card__category {
+        text-align: left;
+        font-size: 15px;
+        letter-spacing:1px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #2a2a2a;
+    }
+
+   
+
+    #Choose
+    {
+       position:relative;
+       top:60rem;
+    }
+
+    #whatmakeunique
+    {
+        position: relative;
+        top:60rem;
+    }
+
+    #news
+    {
+        position: relative;
+        top:60rem;
+    }
+
+
+
+   .mission
+{
+
+    display:none;
+
+  
+}
+
+.fire{
+    display: none;
+}
+
+
+.whatmakeunique{
+    display: flex;
+    justify-content: center;
+    margin-top:2rem;
+    color:#4b4c4b;
+    font-size:2rem;
+ }
+
+
+ #sec
+ {
+    
+    margin-top:50rem;
+ }
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width:360px)
+{
+
+
+    #Choose
+    {
+       position:relative;
+       top:140rem;
+    }
+    .choose-quote{
+        font-size: 2em;
+       
+    }
+
+
+    #whatmakeunique
+    {
+        position: relative;
+        top:140rem;
+    }
+   
+
+    #news
+    {
+        position: relative;
+        top:140rem;
+    }
+
+
+    #sec
+    {
+       
+       margin-top:130rem;
+    }
+   
+}
+
+
+
+
+
+    @media screen and (min-width: 360px) and (max-width:375px)
+    {
+    
+    
+    
+        #Choose
+        {
+           position:relative;
+           top:90rem;
+        }
+    
+    
+        .choose-quote{
+            font-size: 2em;
+           
+        }
+    
+    
+    
+    
+        #whatmakeunique
+        {
+            position: relative;
+            top:90rem;
+        }
+    
+    
+        #news
+        {
+            position: relative;
+            top:90rem;
+        }
+    
+
+
+    #sec
+    {
+       
+       margin-top:80rem;
+    }
+   
+    
+    
+    
+    
+    
+
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width:385px)
+    {
+
+
+        #Choose
+        {
+           position:relative;
+           top:82rem;
+        }
+
+
+    }
+    
+
+
+    @media screen and (min-width: 428px) and (max-width:480px)
+    {
+
+
+        #Choose
+        {
+           position:relative;
+           top:50rem;
+        }
+
+
+    }
+
+    @media screen and (min-width:768px) and (max-width:1023px)
+    {
+
+
+ 
+        html,body{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+           
+        }
+
+
+        .card {
+       
+            width:100%;
+           margin: 1.5rem;
+           
+            
+           
+        }
+
+
+     
+    #Choose
+    {
+       position:relative;
+       top:25rem;
+    }
+
+    #whatmakeunique
+    {
+        position: relative;
+        top:30rem;
+    }
+
+
+
+
+    #news
+    {
+        position: relative;
+        top:30rem;
+    }
+
+
+    .mission
+    {
+    
+        display:none;
+    
+      
+    }
+    
+    .fire{
+        display: none;
+    }
+
+
+    #sec
+    {
+       
+       margin-top:20rem;
+    }
+   
+
+
+    }
+
+
+
+
+>>>>>>> 68ffa3cf98780956ced58c7df5ad9de5b69bc93a

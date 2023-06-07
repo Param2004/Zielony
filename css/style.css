@@ -416,7 +416,6 @@ body {
 .card:hover .card__info  {
     background-color: transparent;
     position: relative;
-    color: #fff;
 }
 
 .card:hover .card__info-hover {
@@ -618,7 +617,7 @@ hr {
 /* OUR MISSION */
 
 #ourmission {
-    margin-top: 4rem;
+    margin: 4rem 0 15rem;
 }
 
 .mission-on {
@@ -665,7 +664,7 @@ hr {
 }
 
 .fire {
-
+    
     height: 28rem;
     width: 40rem;
     position: relative;
@@ -682,7 +681,7 @@ hr {
     padding: 70px 0px 20px;
     font-size: 15px;
     line-height: 30px;
-
+    margin-top: 235px;
 }
 
 .site-footer h6 {
@@ -947,6 +946,9 @@ input {
     .fot-link,
     .fot-elem {
         font-size: 60%;
+    }
+    .site-footer{
+        margin: 0;
     }
 }
 

@@ -219,7 +219,7 @@ body {
 .sl {
 
     width: 100%;
-    height: 100%;
+    height: 630px;
 }
 
 .slide-btn {
@@ -229,6 +229,7 @@ body {
 /* PRODUCT RANGE */
 
 #movingcard {
+    background-color: rgb(243, 247, 251);
     padding-left: 30px;
     padding-right: 30px;
 
@@ -261,7 +262,7 @@ body {
 
 .card--1 .card__img,
 .card--1 .card__img--hover {
-    background-image: url("https://www.theclimategroup.org/sites/default/files/styles/image_with_text_desktop/public/2020-10/shutterstock_446584552.jpg?h=3e43625b&itok=LDrQqP98")
+    background-image: url("../images/industry.jpg")
 }
 
 .card--2 .card__img,
@@ -297,7 +298,7 @@ body {
 
 .card--8 .card__img,
 .card--8 .card__img--hover {
-    background-image: url("https://images.unsplash.com/photo-1580793241553-e9f1cce181af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvcHBpbmclMjBtYWxsfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-image: url("../images/mall.jpg");
 }
 
 .card__like {
@@ -362,11 +363,11 @@ body {
     border-radius: 18px;
     border-radius: 18px;
     background: #ffffff;
-    box-shadow: 13px 13px 4px #858585, -13px -13px 4px #ffffff;
+    box-shadow: 13px 13px 4px #9f9797;
 }
 
 .card:hover {
-    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    box-shadow: 13px 13px 4px #858585;
     transform: scale(1.10, 1.10);
 }
 
@@ -407,14 +408,15 @@ body {
     color: #AD7D52;
 }
 
-.card:hover .card__img--hover {
+/* .card:hover .card__img--hover {
     height: 100%;
-    opacity: 0.3;
-}
+    filter: brightness(0.5);
+} */
 
-.card:hover .card__info {
+.card:hover .card__info  {
     background-color: transparent;
     position: relative;
+    color: #fff;
 }
 
 .card:hover .card__info-hover {
@@ -498,7 +500,7 @@ body {
 
 .uniquecards {
     margin: 5vh auto;
-    width: 25em;
+    width: 24em;
     height: 27em;
     border-radius: 4px;
     box-shadow: 0 15px 35px rgba(50, 50, 90, .1), 0 5px 15px rgba(0, 0, 0, .07);
@@ -550,7 +552,6 @@ p {
 /* NEWS */
 
 .newshead {
-    display: flex;
     justify-content: center;
     margin-top: 4rem;
     color: #4b4c4b;
@@ -681,7 +682,6 @@ hr {
     padding: 70px 0px 20px;
     font-size: 15px;
     line-height: 30px;
-    margin-top: 235px;
 
 }
 
@@ -744,10 +744,9 @@ input {
 
 
 /* FOOTER */
-
 .footer {
-    background-color: #18622d;
-    padding: 1em;
+    background-color: #13762d;
+    padding: 5px;
     text-align: center;
 }
 
@@ -825,16 +824,15 @@ input {
 
 /* RESPONSIVE */
 
-@media (min-width:800px) {
+ @media (min-width:1000px) {
     .dropdown:hover>.dropdown-menu {
         display: block;
     }
 
     .dropdown>.dropdown-toggle:active {
-        /*Without this, clicking will make it sticky*/
         pointer-events: none;
     }
-}
+}   
 
 @media (max-width:1000px) {
     .headline {
@@ -890,9 +888,10 @@ input {
         right: 20px;
     }
 
-    .d-block {
+    .d-block{
         position: absolute;
-        visibility: hidden;
+        display: none !important;
+        visibility: hidden !important;
     }
 
     .sl {
@@ -906,18 +905,17 @@ input {
         font-size: xx-large;
     }
 
-    /* .movingcard{
-        height: 6500px;
-    } */
-
     #Choose {
         margin-top: 135rem;
     }
 
     /* news */
-    .one,
-    .two {
-        margin: 0 !important;
+    .one {
+        margin: 0 0 50px !important;
+        height: 400px;
+    }
+    .head2 , .head3{
+        margin: 0 0 50px;
     }
 
     .img1,
@@ -1002,18 +1000,20 @@ input {
         top: 60rem;
     }
 
-
+    #ourmission{
+        margin-top: 1000px;
+    }
 
     .mission {
-
+        
         display: none;
-
-
+        margin: 0;
+        height: 100%;
     }
 
     .fire {
         display: none;
-    }
+    } 
 
 
     .whatmakeunique {
@@ -1185,16 +1185,16 @@ input {
     }
 
 
-    .mission {
+    /* .mission {
 
         display: none;
 
 
-    }
+    } */
 
-    .fire {
+    /* .fire {
         display: none;
-    }
+    } */
 
 
     #sec {

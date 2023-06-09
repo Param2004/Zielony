@@ -11,7 +11,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+body{
+    overflow-x: hidden;
+}
 
 /* NAVBAR */
 .navbar-brand {
@@ -218,7 +220,7 @@ html {
 /* PRODUCT RANGE */
 
 #movingcard {
-    background-color: rgb(243, 247, 251);
+    background-color: aliceblue;
     padding-left: 30px;
     padding-right: 30px;
 
@@ -226,16 +228,15 @@ html {
 
 .cards {
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    height: 100%;
+    display:flex;
+    flex-direction:row;
     flex-wrap: wrap;
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
-    max-width: 200rem;
-    max-height: 200rem;
-    margin-top: 6rem;
-    gap: 6rem;
+    margin-top:6rem;
+    gap:6rem;
 
 }
 
@@ -280,7 +281,6 @@ html {
 }
 
 .card--7 .card__img,
-
 .card--7 .card__img--hover {
     background-image: url("../res/commercial.jpg");
 }
@@ -397,11 +397,6 @@ html {
     color: #AD7D52;
 }
 
-/* .card:hover .card__img--hover {
-    height: 100%;
-    filter: brightness(0.5);
-} */
-
 .card:hover .card__info  {
     background-color: transparent;
     position: relative;
@@ -440,7 +435,6 @@ html {
     border-radius: 5%;
     padding-left: 7%;
     padding-right: 7%;
-
     margin-bottom: 3% !important;
 }
 
@@ -475,7 +469,7 @@ html {
 .whatmakeunique {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 2rem;
     color: #4b4c4b;
     font-size: 3rem;
 }
@@ -487,15 +481,14 @@ html {
 }
 
 .uniquecards {
-    margin: 5vh auto;
     width: 24em;
-    height: 27em;
+    height: 28em;
     border-radius: 4px;
     box-shadow: 0 15px 35px rgba(50, 50, 90, .1), 0 5px 15px rgba(0, 0, 0, .07);
     transition: .6s ease;
     background: white;
     text-align: center;
-
+    margin: 2rem;
 
 }
 
@@ -903,10 +896,10 @@ input{
         text-align: justify !important;
     }
 
-    /* .sticky-top{
-        display:  block !important;
+    .sticky-top{
         position: fixed !important;
-    } */
+        width: 100%;
+    }
 
     .navbar-collapse {
         border-radius: 10px;
@@ -951,6 +944,10 @@ input{
         right: 20px;
     }
 
+
+    #carousel{
+        margin-top: 100px;
+    }
     .d-block{
         position: absolute;
         display: none !important;
@@ -968,9 +965,6 @@ input{
         font-size: xx-large;
     }
 
-    #Choose {
-        margin-top: 135rem;
-    }
 
     /* news */
     .one {
@@ -1053,28 +1047,24 @@ input{
 
     #Choose {
         position: relative;
-        top: 60rem;
+        top: 10rem;
     }
 
     #whatmakeunique {
         position: relative;
-        top: 60rem;
+        top: 15rem;
     }
 
     #news {
         position: relative;
-        top: 60rem;
+        top: 20rem;
     }
 
-    #ourmission{
-        margin-top: 800px;
-    }
-
+   
     .mission {
         
         display: none;
-        margin: 0;
-        height: 100%;
+    
     }
 
     .fire {
@@ -1091,11 +1081,7 @@ input{
     }
 
 
-    #sec {
-
-        margin-top: 50rem;
-    }
-
+ 
 
 }
 
@@ -1105,7 +1091,7 @@ input{
 
     #Choose {
         position: relative;
-        top: 140rem;
+        top: 10rem;
     }
 
     .choose-quote {
@@ -1116,21 +1102,17 @@ input{
 
     #whatmakeunique {
         position: relative;
-        top: 140rem;
+        top: 20rem;
     }
 
 
     #news {
         position: relative;
-        top: 140rem;
+        top: 25rem;
     }
 
 
-    #sec {
-
-        margin-top: 130rem;
-    }
-
+  
 }
 
 
@@ -1143,7 +1125,7 @@ input{
 
     #Choose {
         position: relative;
-        top: 90rem;
+        top: 10rem;
     }
 
 
@@ -1157,26 +1139,14 @@ input{
 
     #whatmakeunique {
         position: relative;
-        top: 90rem;
+        top: 15rem;
     }
 
 
     #news {
         position: relative;
-        top: 90rem;
+        top: 20rem;
     }
-
-
-
-    #sec {
-
-        margin-top: 80rem;
-    }
-
-
-
-
-
 
 
 }
@@ -1188,7 +1158,7 @@ input{
 
     #Choose {
         position: relative;
-        top: 82rem;
+        top: 10rem;
     }
 
 
@@ -1201,7 +1171,7 @@ input{
 
     #Choose {
         position: relative;
-        top: 50rem;
+        top: 10rem;
     }
 
 
@@ -1234,12 +1204,12 @@ input{
 
     #Choose {
         position: relative;
-        top: 25rem;
+        top: 10rem;
     }
 
     #whatmakeunique {
         position: relative;
-        top: 30rem;
+        top: 15rem;
     }
 
 
@@ -1247,7 +1217,7 @@ input{
 
     #news {
         position: relative;
-        top: 30rem;
+        top: 15rem;
     }
 
 
@@ -1261,12 +1231,6 @@ input{
      .fire {
         display: none;
     } 
-
-
-    #sec {
-
-        margin-top: 20rem;
-    }
 
 
 

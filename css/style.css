@@ -18,6 +18,7 @@ body{
 /* NAVBAR */
 .navbar-brand {
     margin-right: auto !important;
+    
 }
 
 .navbar {
@@ -188,7 +189,7 @@ body{
 
 /* CAROUSEL */
 
-#carousel {
+#carouselExampleDark {
     background-color: aliceblue;
 }
 
@@ -208,13 +209,20 @@ body{
 }
 
 .sl {
-
     width: 100%;
-    height: 630px;
+    height: 700px;
 }
 
 .slide-btn {
     width: 100px !important;
+}
+
+.b-1, .b-2, .b-3{
+    filter: opacity(0.6);
+    margin: 10px !important;
+    text-align: right !important;
+    padding: 0 18px 0 0 !important;
+    text-decoration: underline 9px;
 }
 
 /* PRODUCT RANGE */
@@ -664,7 +672,6 @@ hr {
 .container1{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     font-size: 15px;
     line-height: 30px;
     margin-top: 10px;
@@ -678,10 +685,6 @@ hr {
 {
   color:white;
   font-size:30px;
-  /* margin-bottom: 25px; */
-  /* text-transform:uppercase; */
-  /* margin-top:5px; */
-  /* letter-spacing:2px */
 }
 .menu-items a{
     color: #f8f8ff;
@@ -725,7 +728,6 @@ hr {
     padding-top: 19px;
 }
 input{
-    /* padding: 10px 5px 10px; */
     padding: 10px 12px;
     width: 250px;
     border-radius: 1px;
@@ -778,7 +780,6 @@ input{
 }
 .social-links{
     display: flex;
-    /* padding-top: 20px; */
     margin-top: 50px;
 }
 .social-links a{
@@ -945,18 +946,21 @@ input{
     }
 
 
-    #carousel{
-        margin-top: 100px;
+    #carouselExampleDark{
+        margin-top: 80px;
     }
     .d-block{
         position: absolute;
         display: none !important;
         visibility: hidden !important;
     }
+    .hide{
+        visibility: hidden;
+    }
 
     .sl {
         width: 100%;
-        height: 250px;
+        height: auto;
     }
 
     .pheading,

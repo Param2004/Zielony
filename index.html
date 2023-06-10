@@ -97,10 +97,15 @@
 
   <!-- CAROUSEL -->
 
-  <div id="carousel" class="carousel slide " data-bs-ride="carousel" data-bs-interval="8000">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel" data-bs-interval="10000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="b-1 hide active" aria-current="true" aria-label="Slide 1">1</button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="b-2 hide" aria-label="Slide 2">2</button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="b-3 hide" aria-label="Slide 3">3</button>
+    </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div class="row">
+        <div class="row sl">
           <div class="headline col-lg-6">
             <h1 class="headline-quote">Zielony<br> makes our world <br>Fresh and Breathable</h1>
             <p class="intro">We have researched several hazardous pollutants
@@ -123,10 +128,12 @@
         <img class="d-block sl" src="res/slide3.png" alt="Third slide">
       </div>
     </div>
-    <button class="slide-btn carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+    <button class="slide-btn carousel-control-prev hide" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <button class="slide-btn carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="visually-hidden">Previous</span>
+      <button class="slide-btn carousel-control-next hide" data-bs-target="#carouselExampleDark" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
   </div>
 
   <!-- PRODUCT RANGE -->
@@ -150,7 +157,7 @@
           <h3 class="card__title">INDUSTRIES</h3>
           <p class="card__category"> Helps improving the indoor air quality, reduce employee exposure to hazardous
             pollutants, and comply with occupational health and safety regulations.</p>
-          <button type="button" class="btn btn-lg btn-outline-success">Shop Now</button>
+          <button type="button" class="btn btn-lg btn-outline-success pr-btn">Shop Now</button>
         </div>
       </article>
 
@@ -170,7 +177,7 @@
           <h3 class="card__title">SMART CITY</h3>
           <p class="card__category"> Zielony air purifiers have the possibility of connecting to IOT devices of smart
             cities to allow for fully automated approach of environmental wellbeing.</p>
-          <button type="button" class="btn btn-lg btn-outline-success">Coming Soon</button>
+          <button type="button" class="btn btn-lg btn-outline-success pr-btn">Coming Soon</button>
         </div>
       </article>
 
@@ -193,7 +200,7 @@
           <p class="card__category"> Refreshing state air, reducing the chances of health issues caused by indoor
             pollutants, which can trigger respiratory infections, neurological problems, or aggravate symptoms in asthma
             sufferers.</p>
-          <button type="button" class="btn btn-lg btn-outline-success">Coming Soon</button>
+          <button type="button" class="btn btn-lg btn-outline-success pr-btn">Coming Soon</button>
         </div>
       </article>
 
@@ -215,7 +222,7 @@
           <h3 class="card__title">SMOG TOWER</h3>
           <p class="card__category"> Air Purifiers can be used in large structures namely smog tower that are designed
             to clean the air in heavily polluted areas.</p>
-          <button type="button" class="btn btn-lg btn-outline-success">Coming Soon</button>
+          <button type="button" class="btn btn-lg btn-outline-success pr-btn">Coming Soon</button>
         </div>
       </article>
 
@@ -240,7 +247,7 @@
           <h3 class="card__title">HOSPITALS</h3>
           <p class="card__category"> Zielony purifiers can remove a wide range of airborne contaminants, including
             bacteria, viruses, fungi, and other microorganisms that can cause infections in hospitals.</p>
-          <button type="button" class="btn btn-lg btn-outline-success">Coming Soon</button>
+          <button type="button" class="btn btn-lg btn-outline-success pr-btn">Coming Soon</button>
         </div>
       </article>
 
@@ -262,7 +269,7 @@
           <h3 class="card__title">METRO</h3>
           <p class="card__category">Improves air quality in metro stations and creates a healthier and more comfortable
             environment for commuters and station staff as metro stations can be crowded and poorly ventilated. </p>
-          <button type="button" class="btn btn-lg btn-outline-success">Coming Soon</button>
+          <button type="button" class="btn btn-lg btn-outline-success pr-btn">Coming Soon</button>
         </div>
       </article>
 
@@ -286,7 +293,7 @@
           <h3 class="card__title">COMMERCIAL BUILDINGS</h3>
           <p class="card__category"> Improved indoor air quality and promote the health and well-being in Commercial
             buildings, such as offices, retail stores, and restaurants, etc.</p>
-          <button type="button" class="btn btn-lg btn-outline-success">Coming Soon</button>
+          <button type="button" class="btn btn-lg btn-outline-success pr-btn">Coming Soon</button>
         </div>
       </article>
 
@@ -309,7 +316,7 @@
           <p class="card__category">Creates a healthier and more comfortable environment for shoppers, employees, and
             visitors as malls can be crowded and poorly ventilated, leading to high levels of pollutants and
             contaminants in the air.</p>
-          <button type="button" class="btn btn-lg btn-outline-success">Coming Soon</button>
+          <button type="button" class="btn btn-lg btn-outline-success pr-btn">Coming Soon</button>
         </div>
       </article>
     </div>
@@ -609,7 +616,7 @@
   <!-- OUr misssion  -->
 
   <section id="ourmission">
-    <!-- <h2 class="newshead" data-aos="slide-down">Our Mission</h2> -->
+   
     <div class="mission-on">
 
 
@@ -761,14 +768,13 @@
   <script src="js/aos.js"></script>
   <script>
     AOS.init({
-      duration: 800,
-      offset: 200,
+      duration: 600
     }
     );
   </script>
   <script>
-        if(window.innerWidth < 1200) {
-          let Div = document.getElementById("carousel");
+        if(window.innerWidth < 1000) {
+          let Div = document.getElementById("carouselExampleDark");
           Div.setAttribute("data-bs-interval" , "0000"); 
         }
 </script>

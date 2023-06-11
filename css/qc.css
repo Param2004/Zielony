@@ -1,16 +1,22 @@
 
 .head-qc{
     position: absolute;
-    left: 0;
-    text-align: center;
+    left: 2rem;
+    top: 15rem;
+    color: #fff;
 }
 .para-qc{
     position: absolute;
-    left: 0;
+    left: 2rem;
+    top: 15rem;
+    color: #fff;
+    text-align: left;
     margin-top: 50px !important;
-    text-align: center
 }
-
+.img-qc{
+    filter: brightness(0.6);
+    height: 700px;
+}
 
 
 .qc-li{

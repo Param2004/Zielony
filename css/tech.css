@@ -1,12 +1,19 @@
 
 .head-ino{
     position: absolute;
-    left: 0;
-    text-align: center;
+    left: 2rem;
+    top: 18rem;
+    color: white;
 }
 .para-ino{
+    color: white;
     position: absolute;
-    left: 0;
+    left: 2rem;
+    top: 18rem;
+    text-align: left;
     margin-top: 50px !important;
-    text-align: center
+}
+.img-ino{
+    filter: brightness(0.4);
+    height: 700px;
 }

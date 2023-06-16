@@ -1,0 +1,59 @@
+
+.head-ino{
+    position: absolute;
+    left: 3rem;
+    top: 15rem;
+    color: white;
+}
+.para-ino{
+    color: white;
+    position: absolute;
+    left: 4rem;
+    top: 16rem;
+    text-align: left;
+    margin-top: 50px !important;
+}
+.img-ino{
+    filter: brightness(0.7);
+    height: 700px;
+}
+
+.ino-hd{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+}
+
+
+.uniquecards {
+    width: 18em;
+    height: 25em;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50, 50, 90, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    transition: .6s ease;
+    background: white;
+    text-align: center;
+    margin: 2rem;
+
+}
+.uniquecards__img {
+    height: 150px;
+}
+
+
+.mission {
+    background: rgb(138, 126, 100);
+}
+
+
+
+
+
+/* responsive */
+
+@media (max-width:993px) {
+    .img-ino{
+        margin-top: 100px !important;
+        height: 30rem;
+    }
+}

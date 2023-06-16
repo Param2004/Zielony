@@ -1,0 +1,192 @@
+
+.head-qc{
+    position: absolute;
+    left: 2rem;
+    top: 12rem;
+    color: #fff;
+    width: 50% !important;
+}
+.para-qc{
+    position: absolute;
+    left: 3rem;
+    top: 14rem;
+    color: #fff;
+    width: 80% !important;
+    text-align: left;
+    margin-top: 50px !important;
+}
+.img-qc{
+    filter: brightness(0.5);
+    height: 700px;
+}
+
+
+.qc-li{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+#ourmission {
+    margin: 0;
+}
+
+.mission-on {
+    display: flex;
+}
+
+.mission {
+
+    display: flex;
+    margin: auto;
+    width: 40rem;
+    height: 35rem;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50, 50, 90, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    transition: .6s ease;
+    background: #ff0000;
+    text-align: center;
+}
+
+.mission_info h1 {
+    color: #fff;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    text-align: start;
+
+}
+
+.line {
+    margin-top: 0 !important;
+    margin-left: 3rem;
+}
+
+.mission_info p {
+    color: #fff;
+    font-size: 1.1em;
+    text-align: start;
+    line-height: 2rem;
+    padding: 5rem 10rem 5rem 5rem;
+    margin-left: -2rem;
+    margin-top: -3rem;
+}
+
+.fir {
+    height: 35rem;
+    width: 40rem;
+    position: relative;
+    right: 120px; 
+    border-radius: 4px;
+}
+
+.second{
+    height: 35rem;
+    width: 40rem;
+    position: relative;
+    left: 120px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+#dg{
+    background-color:#27374D;
+}
+.p{
+    text-align: center;
+    
+    height:29em;
+    word-wrap: break-word;
+    color: #fff;
+    padding:0 !important;
+}
+.dhead{
+    font-size:2.6em;
+    margin-top: .7em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+    font-size: 1.2em;
+    line-height:1.55;
+    text-align: left;
+     color: #fff;
+  padding:6%;
+  font-family: Montserrat;
+}
+.s{
+    background-color: #27374D;
+}
+.container{
+    padding: 10em 0 10em 0 !important;
+}
+
+@media (max-width:700px) {
+    p{
+        font-size: .47em;
+        line-height: 1.3;
+    }
+    .s{
+        display: none;
+        
+    }
+    .p{
+        height:12em;
+    
+    }
+    .container{
+        padding: 0 !important;
+    }
+    .dhead{
+        font-size: 1.35em;
+        margin-top: 0.5em;
+    }
+    .ldg{
+margin-left: 4%;
+    }
+}
+@media screen and (min-width: 700px) and (max-width:1010px) {
+    p{
+        font-size: .7em;
+        line-height: 1.3;
+    }
+    
+    .p{
+        height:18em;
+    }
+    .dhead{
+        font-size: 1.6em;
+    }
+    .container{
+        padding: 7em 0 7em 0 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width:993px) {
+    .img-qc{
+        margin-top: 100px !important;
+        height: 30rem;
+    }
+}

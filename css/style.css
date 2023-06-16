@@ -218,16 +218,14 @@ html {
 }
 
 .b-1, .b-2, .b-3{
-    background-color: #007b23 !important;
-    color: #007b23;
-    width: 10px !important;
-    margin: 20px !important;
-    text-align: right !important;
-    text-decoration: underline 3px;
+    background-color: #13762d !important;
+    margin: 0 20px 0 !important;
+    width: 50px !important;
+    height: 3px !important;
+    filter: opacity(0.7);
 }
 .b-4, .b-5{
-    color: #35AF58 ;
-    width: 24px !important;
+    width: 15px !important;
 }
 
 /* PRODUCT RANGE */
@@ -795,7 +793,9 @@ input{
 .stacked{
     height: 3rem;
 }
-
+.ft-ico:hover{
+    filter: opacity(0.5);
+}
 
 
 

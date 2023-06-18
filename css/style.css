@@ -268,32 +268,32 @@ html {
 
 .card--2 .card__img,
 .card--2 .card__img--hover {
-    background-image: url("../res/smart.jpg");
+    background-image: url("../images/smart.jpg");
 }
 
 .card--3 .card__img,
 .card--3 .card__img--hover {
-    background-image: url("../res/domestic.jpg");
+    background-image: url("../images/domestic.jpg");
 }
 
 .card--4 .card__img,
 .card--4 .card__img--hover {
-    background-image: url("../res/tower.jpeg");
+    background-image: url("../images/tower.jpeg");
 }
 
 .card--5 .card__img,
 .card--5 .card__img--hover {
-    background-image: url("../res/hospital.jpeg");
+    background-image: url("../images/hospital.jpeg");
 }
 
 .card--6 .card__img,
 .card--6 .card__img--hover {
-    background-image: url("../res/metro.jpeg");
+    background-image: url("../images/metro.jpeg");
 }
 
 .card--7 .card__img,
 .card--7 .card__img--hover {
-    background-image: url("../res/commercial.jpg");
+    background-image: url("../images/commercial.jpg");
 }
 
 .card--8 .card__img,

@@ -681,6 +681,7 @@ hr {
 
 .site-footer{
     background-color: #35AF58;
+    padding: 10px 0;
 }
 .container1{
     display: flex;

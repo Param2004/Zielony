@@ -4,30 +4,37 @@ body{
 .head-qc{
     position: absolute;
     left: 3rem;
-    top: 15rem;
+    top: 14rem;
     padding: 10px;
     color: rgb(215, 215, 215);
-    border-bottom: solid 3px rgba(0, 123, 12, 0.358);
-    font-size: xxx-large;
+    font-size: auto;
     font-family: 'Rufina', serif ;
-    width: 35% !important;
+    width: 80% !important;
+}
+.line{
+    position: absolute;
+    top: 16rem;
+    color: rgba(0, 120, 34, 0.586);
+    width: 80% !important;
 }
 .para-qc{
     position: absolute;
     left: 3rem;
-    top: 14rem;
+    top: 18rem;
+    padding: 0;
     color: #cbcbcb;
     width: 80% !important;
     text-align: left;
     margin-top: 50px !important;
 }
 .img-qc{
-    height: 670px;
+    height: 680px;
+    width: 100%;
 }
 .qc{
     position: absolute;
     top: 0;
-    left: 10px;
+    left: 12px;
     width: 100%;
     height: 100%;
     background-image:
@@ -180,8 +187,30 @@ p{
 
 /* responsive */
 
-@media (max-width:993px) {
+@media (min-width:994px) {
+    .qc{
+        height: 760px;
+    }    
     .img-qc{
+        width: 100%;
+    }
+}
+@media (max-width:993px) {
+    .head-qc{
+        top: 8rem;
+    }
+    .line{
+        top: 10rem;
+    }
+    .para-qc{
+        top: 10rem;
+    }
+    .img-qc{
+        margin-top: 100px !important;
+        height: 30rem;
+        width: 100%;
+    }
+    .qc{
         margin-top: 100px !important;
         height: 30rem;
     }

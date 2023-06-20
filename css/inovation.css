@@ -5,10 +5,15 @@
     top: 15rem;
     padding: 10px;
     color: rgb(228, 228, 228);
-    border-bottom: solid 3px rgba(0, 140, 2, 0.437);
-    font-size: xxx-large;
+    font-size: auto;
     font-family: 'Rufina', serif ;
-    width: 22% !important;
+    width: 50% !important;
+}
+.line{
+    position: absolute;
+    top: 18rem;
+    color: rgba(0, 120, 34, 0.586);
+    width: 80% !important;
 }
 .para-ino{
     color: white;
@@ -22,12 +27,13 @@
     font-family: 'Ubuntu';
 }
 .img-ino{
-    height: 670px;
+    height: 660px;
+    width: 100%;
 }
 .inov{
     position: absolute;
     top: 0;
-    left: 10px;
+    left: 12px;
     width: 100%;
     height: 100%;
     background-image:
@@ -51,13 +57,13 @@
     word-spacing: 4px;
 }
 .li-1{
-    margin: 2rem 10rem 1rem !important;
+    padding: 2rem 2rem 0rem 5rem !important;
     font-family: 'Ubuntu';
     word-spacing: 4px;
     color:rgb(82, 81, 81)
 }
 .li-2{
-    margin: 2rem 1rem 1rem !important;
+    padding: 2rem 5rem 2rem !important;
     font-family: 'Ubuntu';
     word-spacing: 4px;
     color:rgb(82, 81, 81)
@@ -84,10 +90,13 @@
 
 
 .mission {
-    background: #35af58;
+    background: #525252;
 }
 .qc-line{
     font-family: 'monserrat', serif;
+}
+.fire{
+    filter: brightness(0.5);
 }
 
 
@@ -95,9 +104,20 @@
 
 /* responsive */
 
+@media (min-width:994px) {
+    .inov{
+        height: 740px;
+    }    
+    .img-qc{
+        width: 100%;
+    }
+}
 @media (max-width:993px) {
     .img-ino{
-        margin-top: 100px !important;
+        height: 30rem;
+        width: 100%;
+    }
+    .inov{
         height: 30rem;
     }
 }

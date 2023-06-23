@@ -1297,9 +1297,7 @@ input{
 
 /* Media Queries-Footer */
 @media (max-width:800px){
-    .site-footer{
-        margin-top: 300px;
-    }
+    
     footer .container1{
         flex-direction: column;
         padding: 20px 30px;
@@ -1322,8 +1320,9 @@ input{
         font-weight: 100;
     }
 }
-@media screen and (min-width: 801px) and (max-width:1024px) {
-    .site-footer{
-        margin-top: 300px;
+@media (max-width:360px){
+    .stacked{
+        height: 3rem !important;
+        width: 12rem !important;
     }
 }

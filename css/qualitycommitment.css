@@ -13,7 +13,7 @@ body{
 }
 .line{
     position: absolute;
-    top: 16rem;
+    top: 17rem;
     color: rgba(0, 120, 34, 0.586);
     width: 80% !important;
 }
@@ -39,8 +39,8 @@ body{
     height: 100%;
     background-image:
             linear-gradient(to bottom,
-              rgba(100, 115, 0, 0),
-              rgb(2, 0, 35));
+              rgba(8, 82, 0, 0.211),
+              rgb(0, 0, 0));
 }
 
 
@@ -197,22 +197,23 @@ p{
 }
 @media (max-width:993px) {
     .head-qc{
-        top: 8rem;
+        top: 3rem;
+        font-size: auto;
     }
     .line{
-        top: 10rem;
+        display: none;
     }
     .para-qc{
-        top: 10rem;
+        top: 6rem;
     }
     .img-qc{
         margin-top: 100px !important;
-        height: 30rem;
+        height: 20rem;
         width: 100%;
     }
     .qc{
         margin-top: 100px !important;
-        height: 30rem;
+        height: 20rem;
     }
 }
 @media (max-width:700px) {

@@ -2,7 +2,7 @@
 .head-ino{
     position: absolute;
     left: 3rem;
-    top: 15rem;
+    top: 18rem;
     padding: 10px;
     color: rgb(228, 228, 228);
     font-size: auto;
@@ -11,7 +11,7 @@
 }
 .line{
     position: absolute;
-    top: 18rem;
+    top: 20rem;
     color: rgba(0, 120, 34, 0.586);
     width: 80% !important;
 }
@@ -19,10 +19,10 @@
     color: white;
     position: absolute;
     left: 3rem;
-    top: 18rem;
-    font-size: larger;
+    top: 20rem;
+    font-size: auto;
     text-align: left;
-    width: 70% !important;
+    width: 80% !important;
     margin-top: 50px !important;
     font-family: 'Ubuntu';
 }
@@ -38,8 +38,8 @@
     height: 100%;
     background-image:
             linear-gradient(to bottom,
-              rgba(100, 115, 0, 0.17),
-              rgb(0, 0, 35));
+              rgba(0, 56, 8, 0.247),
+              rgb(0, 0, 0));
 }
 
 .ino-hd{
@@ -106,7 +106,8 @@
 
 @media (min-width:994px) {
     .inov{
-        height: 740px;
+        height: 760px;
+
     }    
     .img-qc{
         width: 100%;
@@ -114,10 +115,36 @@
 }
 @media (max-width:993px) {
     .img-ino{
-        height: 30rem;
+        height: 24rem;
         width: 100%;
     }
     .inov{
-        height: 30rem;
+        height: 24rem;
+    }
+    .head-ino{
+        top: 10rem;
+    }
+    .line{
+        top: 12rem;
+    }
+    .para-ino{
+        top: 10rem;
+    }
+    .ino-hd{
+        margin: 1rem 1rem 0 1rem;
+    }
+    .ino-para{
+        margin: 0 0 50px;
+        text-align: justify;
+    }
+    .li-1 , .li-2{
+        margin: 10px;
+        padding: 0 30px 0px 10px !important;
+    }
+    .list-itms{
+        padding: 5px 0 5px;
+    }
+    #ourmission{
+        display: none;
     }
 }

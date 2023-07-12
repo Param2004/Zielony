@@ -115,20 +115,21 @@
 }
 @media (max-width:993px) {
     .img-ino{
-        height: 24rem;
+        height: 20rem;
         width: 100%;
     }
     .inov{
-        height: 24rem;
+        margin-top: 100px !important;
+        height: 20rem;
     }
     .head-ino{
-        top: 10rem;
+        top: 3rem;
     }
     .line{
-        top: 12rem;
+        top: 5rem;
     }
     .para-ino{
-        top: 10rem;
+        top: 5rem;
     }
     .ino-hd{
         margin: 1rem 1rem 0 1rem;

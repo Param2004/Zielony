@@ -964,10 +964,7 @@ input{
         right: 20px;
     }
 
-
-    #carouselExampleDark{
-        margin-top: 80px;
-    }
+    
     .d-block{
         position: absolute;
         display: none !important;

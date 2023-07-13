@@ -12,7 +12,7 @@
 .line{
     position: absolute;
     top: 20rem;
-    color: rgba(0, 120, 34, 0.586);
+    color: rgba(0, 160, 45, 0.712);
     width: 80% !important;
 }
 .para-ino{
@@ -50,9 +50,9 @@
 }
 .ino-para{
     text-align: left;
-    margin: 0 5rem 0;
-    font-size: 18px;
-    line-height: 25px;
+    margin: 2rem !important;
+    font-size: 20px;
+    line-height: 35px;
     font-family: 'Ubuntu';
     word-spacing: 4px;
 }

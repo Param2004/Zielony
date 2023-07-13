@@ -14,7 +14,7 @@ body{
 .line{
     position: absolute;
     top: 17rem;
-    color: rgba(0, 120, 34, 0.586);
+    color: rgba(0, 160, 45, 0.715);
     width: 80% !important;
 }
 .para-qc{
@@ -151,7 +151,7 @@ body{
 
 
 #dg{
-    background-color:#27374D;
+    background-color:#002d07;
 }
 .p{
     text-align: center;
@@ -174,9 +174,6 @@ p{
      color: #fff;
   padding:6%;
   font-family: Montserrat;
-}
-.s{
-    background-color: #27374D;
 }
 .container{
     padding: 10em 0 10em 0 !important;
